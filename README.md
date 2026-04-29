@@ -4,7 +4,7 @@ A full-stack Deep Learning application that detects multiple objects in a single
 
 ---
 
-## 📊 Dataset: PASCAL VOC 2007
+## Dataset: [PASCAL VOC 2007](https://www.kaggle.com/datasets/zaraks/pascal-voc-2007)
 The model is trained and evaluated on the **PASCAL Visual Object Classes (VOC) 2007** dataset, a benchmark in visual object category recognition.
 * **Total Images:** 9,963 (Train/Val/Test splits)
 * **Classes:** 20 distinct object categories.
@@ -15,7 +15,7 @@ The model is trained and evaluated on the **PASCAL Visual Object Classes (VOC) 2
 
 ---
 
-## 🧠 Architecture Breakdown
+## Architecture Breakdown
 The system relies on an encoder-decoder structure to capture both spatial features and label dependencies.
 
 1. **Vision Encoder (CNN):** * **Backbone:** VGG-16 (Pre-trained on ImageNet).
@@ -28,7 +28,7 @@ The system relies on an encoder-decoder structure to capture both spatial featur
 
 ---
 
-## 📐 The Mathematical Foundation
+## The Mathematical Foundation
 
 Standard multi-label classification assumes object independence (Binary Relevance). This architecture fundamentally rejects that assumption, modeling image classification as a joint probability distribution where the presence of one object directly influences the probability of another.
 
@@ -54,14 +54,14 @@ Where:
 
 ---
 
-## 📈 Model Performance & Metrics
+## Model Performance & Metrics
 * **Evaluation Metric:** Mean Average Precision (mAP).
 * **Implementation Result:** 65.07% mAP.
 * **Highlights:** Achieved highly correlated scores with the original CVPR paper on high-frequency classes such as *Aeroplane* (95.3% AP) and *Person* (92.6% AP).
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
     cnn-rnn-portfolio/
     │
@@ -86,7 +86,7 @@ Where:
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ### 1. Weights Installation
 Due to file size limits, the 500MB+ model weights are hosted in the **Releases** section of this repository.
@@ -116,7 +116,7 @@ Open a **new** terminal, navigate to the `frontend` folder, and start a local we
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Deep Learning:** PyTorch, Torchvision
 - **Backend API:** FastAPI, Uvicorn, Python-Multipart
 - **Frontend UI:** HTML5, CSS3, Vanilla JavaScript
