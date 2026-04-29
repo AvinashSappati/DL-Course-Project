@@ -17,4 +17,4 @@ async def predict_multiple(files: List[UploadFile] = File(...)):
         return {"error": str(e)}
 
 # Pro-Move: Mount the static frontend folder to the root URL
-app.mount("/", StaticFiles(directory="frontend", html=True), name="frontend")
+app.mount("/", StaticFiles(directory="Frontend", html=True), name="frontend")
