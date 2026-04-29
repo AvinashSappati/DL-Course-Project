@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNN-RNN Batch Image Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Multi-Label Batch Detection</h1>
+        <p>Upload one or multiple images to detect objects using the CNN-RNN framework.</p>
+        <p class="disclaimer">Note: This model is trained to detect 20 specific PASCAL VOC classes.</p>
+        
+        <div class="upload-section">
+            <input type="file" id="fileInput" accept="image/*" multiple />
+            <button id="predictBtn" disabled>Predict All</button>
+        </div>
+
+        <div class="results-grid" id="resultsGrid" style="display: none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+.disclaimer {
+    font-size: 12px;
+    color: #666;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.upload-section { margin: 25px 0; }
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+button:hover { background: #0056b3; }
+button:disabled { background: #c0c4c8; cursor: not-allowed; }
+.image-preview {
+    max-width: 100%;
+    max-height: 350px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.results-section { margin-top: 25px; }
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.tag {
+    background: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* New Grid Layout for Batch Processing */
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+.result-card {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result-card .image-preview {
+    max-height: 200px;
+    width: auto;
+    object-fit: cover;
+    margin-top: 0;
+}
+.filename {
+    font-size: 12px;
+    color: #666;
+    margin: 10px 0;
+    word-break: break-all;
+}
