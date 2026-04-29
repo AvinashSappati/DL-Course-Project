@@ -36,7 +36,7 @@ To prepare the visual and sequential data for the hybrid architecture, the follo
 
 ## Architecture Breakdown: Joint CNN-LSTM
 <p align="center">
-  <img src="results/architecture.jpeg" alt="Architecture" width="600"/>
+  <img src="Results/architecture.jpeg" alt="Architecture" width="600"/>
 </p>
 The system relies on a dual-pathway architecture to capture both spatial features and sequential label dependencies, merging them into a joint embedding space.
 
