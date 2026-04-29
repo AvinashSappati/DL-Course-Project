@@ -1,0 +1,22 @@
+Class,CNN-RNN (Research Paper),CNN-RNN (Implementation)
+plane,96.7,95.3
+bike,83.1,42.0
+bird,94.2,89.8
+boat,92.8,80.1
+bottle,61.2,35.4
+bus,82.1,66.5
+car,89.1,81.8
+cat,94.2,89.4
+chair,64.2,55.3
+cow,83.6,73.8
+table,70.0,15.4
+dog,92.4,85.7
+horse,91.7,31.2
+motor,84.2,50.8
+person,93.7,92.6
+plant,59.8,46.9
+sheep,93.2,78.7
+sofa,75.3,38.3
+train,99.7,92.0
+tv,78.6,60.5
+mAP,84.0,65.07
