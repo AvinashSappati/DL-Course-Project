@@ -13,7 +13,7 @@ VOC_CLASSES = [
 
 # Load Model
 model = CNNRNN().to(DEVICE)
-model.load_state_dict(torch.load("weights/finalmodel.pth", map_location=DEVICE)) 
+model.load_state_dict(torch.load("finalmodel.pth", map_location=DEVICE,weights_only=False)) 
 model.eval()
 
 
