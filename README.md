@@ -97,7 +97,7 @@ The model's performance was evaluated against the testing split using Mean Avera
 
 ## Repository Structure
 
-    cnn-rnn-portfolio/
+    DL-Course-Project/
     │
     ├── backend/                  # PyTorch Model & FastAPI Server
     │   ├── app.py                # Main API routing and CORS configuration
