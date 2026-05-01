@@ -83,7 +83,7 @@ At each time step $t$, the LSTM maintains a hidden state $r(t)$ that acts as str
 
 The model's performance was evaluated against the testing split using Mean Average Precision (mAP), the gold standard metric for multi-label classification. 
 
-* **Overall Benchmark:** 65.07% mAP.
+* **Overall Benchmark:** 65.23% mAP.
 
 | Category | Average Precision (AP) | Notes |
 | :--- | :--- | :--- |
@@ -116,6 +116,8 @@ The model's performance was evaluated against the testing split using Mean Avera
     │   ├── comparison_benchmark.png
     │   └── paper_vs_implementation.csv
     │
+    └── Dockerfile 
+    |
     └── README.md                 
 
 ---
