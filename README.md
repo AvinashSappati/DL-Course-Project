@@ -89,7 +89,7 @@ The model's performance was evaluated against the testing split using Mean Avera
 | :--- | :--- | :--- |
 | **Aeroplane** | 95.3% | Highly correlated with the original CVPR paper results. |
 | **Person** | 92.6% | Exceptional detection rate for the most frequent class in the dataset. |
-| **Overall mAP** | **65.07%** | Demonstrates strong contextual learning across all 20 classes. |
+| **Overall mAP** | **65.23%** | Demonstrates strong contextual learning across all 20 classes. |
 
 *(Note: See the `results/` folder for visual benchmark comparisons and training loss curves).*
 
