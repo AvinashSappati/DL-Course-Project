@@ -112,6 +112,8 @@ The model's performance was evaluated against the testing split using Mean Avera
     │   ├── script.js             # API integration and DOM manipulation
     │   └── style.css             
     │
+    └──  NoteBook / 
+    |    └── Team08_DLProject.ipynb # full notebook file 
     ├── results/                  # Benchmark comparisons and charts
     │   ├── comparison_benchmark.png
     │   └── paper_vs_implementation.csv
