@@ -116,6 +116,10 @@ The model's performance was evaluated against the testing split using Mean Avera
     │   ├── comparison_benchmark.png
     │   └── paper_vs_implementation.csv
     │
+    └── test_images/
+    |
+    └── .gitignore 
+    |
     └── Dockerfile 
     |
     └── README.md                 
